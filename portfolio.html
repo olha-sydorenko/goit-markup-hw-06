@@ -250,7 +250,9 @@
     <footer class="site-footer">
       <div class="container container-footer">
         <div class="adress-wrap">
-          <a class="logo" href="./index.html"><span class="web">Web</span>Studio </a>
+          <a class="logo" href="./index.html"
+            ><span class="web">Web</span>Studio
+          </a>
           <address class="site-address">
             <ul class="address-list list">
               <li class="address-item">
@@ -263,7 +265,9 @@
                 >
               </li>
               <li class="address-item">
-                <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="address-item">
                 <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -305,7 +309,27 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscription">
+          <p class="subscr-cta">Підпишіться на розсилку</p>
+          <form class="subscr-form">
+            <input
+              type="email"
+              class="subscr-input"
+              name="subscr-mail"
+              id="subscr-mail"
+              placeholder="E-mail"
+              aria-label="Форма підписки"
+            />
+            <button type="submit" class="subscr-btn">
+              Підписатися<svg class="icon-send" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
